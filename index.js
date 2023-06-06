@@ -10,9 +10,9 @@ let image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImageSource2);
 //-------------------------------------- now it is time for the conclution 
 if (randomNumber1 > randomNumber2)
-document.querySelector("h1").innerHTML("player 1 wins 👌");
+document.querySelector("h1").innerHTML = "player 1 wins 👌";
 if (randomNumber1 < randomNumber2)
-document.querySelector("h1").innerHTML("player 2 wins 💥");
+document.querySelector("h1").innerHTML="player 2 wins 💥";
 if (randomNumber1 = randomNumber2)
-document.querySelector("h1").innerHTML("it is a draw 🐱‍🐉");
+document.querySelector("h1").innerHTML = "it is a draw 🐱‍🐉";
 
