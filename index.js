@@ -18,3 +18,6 @@ document.querySelector("h1").innerHTML="player 2 wins 💥";
  else {
 document.querySelector("h1").innerHTML = "it is a draw 🐱‍🐉";
 }
+function reloadPage() {
+    window.location.reload();
+  }

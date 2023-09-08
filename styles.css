@@ -9,6 +9,28 @@
   display: inline-block;
 
 }
+  /* Initial button style */
+  .custom-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+
+  /* Button style on hover */
+  .custom-button:hover {
+    background-color: #5a995a;;
+  }
+  .button-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:2rem;
+
+  }
 
 body {
   background-color: #393E46;
